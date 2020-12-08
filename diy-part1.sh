@@ -27,3 +27,4 @@ sed -i '$a src-git small https://github.com/kenzok8/small' feeds.conf.default
 #add packages
 #sed -i '$a src-git 281677160 https://github.com/281677160/openwrt-package' feeds.conf.default
 #git clone -b lede https://github.com/pymumu/luci-app-smartdns package/luci-app-smartdn
+rm -rf package/lean/luci-theme-argon
